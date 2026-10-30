@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/DarshParikh/cpu-benchmark-engine/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
