@@ -4,9 +4,9 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/Users/DarshParikh/cpu-benchmark-engine/include
 
-CXX_FLAGSarm64 = -O3 -DNDEBUG -std=c++17 -arch arm64 -O2 -Wall -Wextra -Wpedantic
+CXX_FLAGSarm64 = -O3 -DNDEBUG -std=c++17 -arch arm64 -Wall -Wextra -Wpedantic
 
-CXX_FLAGS = -O3 -DNDEBUG -std=c++17 -arch arm64 -O2 -Wall -Wextra -Wpedantic
+CXX_FLAGS = -O3 -DNDEBUG -std=c++17 -arch arm64 -Wall -Wextra -Wpedantic
 

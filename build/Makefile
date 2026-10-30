@@ -129,6 +129,102 @@ cpu_benchmark/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/build
 .PHONY : cpu_benchmark/fast
 
+src/benchmarks/floating_point.o: src/benchmarks/floating_point.cpp.o
+.PHONY : src/benchmarks/floating_point.o
+
+# target to build an object file
+src/benchmarks/floating_point.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.o
+.PHONY : src/benchmarks/floating_point.cpp.o
+
+src/benchmarks/floating_point.i: src/benchmarks/floating_point.cpp.i
+.PHONY : src/benchmarks/floating_point.i
+
+# target to preprocess a source file
+src/benchmarks/floating_point.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.i
+.PHONY : src/benchmarks/floating_point.cpp.i
+
+src/benchmarks/floating_point.s: src/benchmarks/floating_point.cpp.s
+.PHONY : src/benchmarks/floating_point.s
+
+# target to generate assembly for a file
+src/benchmarks/floating_point.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.s
+.PHONY : src/benchmarks/floating_point.cpp.s
+
+src/benchmarks/integer.o: src/benchmarks/integer.cpp.o
+.PHONY : src/benchmarks/integer.o
+
+# target to build an object file
+src/benchmarks/integer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.o
+.PHONY : src/benchmarks/integer.cpp.o
+
+src/benchmarks/integer.i: src/benchmarks/integer.cpp.i
+.PHONY : src/benchmarks/integer.i
+
+# target to preprocess a source file
+src/benchmarks/integer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.i
+.PHONY : src/benchmarks/integer.cpp.i
+
+src/benchmarks/integer.s: src/benchmarks/integer.cpp.s
+.PHONY : src/benchmarks/integer.s
+
+# target to generate assembly for a file
+src/benchmarks/integer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.s
+.PHONY : src/benchmarks/integer.cpp.s
+
+src/benchmarks/memory.o: src/benchmarks/memory.cpp.o
+.PHONY : src/benchmarks/memory.o
+
+# target to build an object file
+src/benchmarks/memory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.o
+.PHONY : src/benchmarks/memory.cpp.o
+
+src/benchmarks/memory.i: src/benchmarks/memory.cpp.i
+.PHONY : src/benchmarks/memory.i
+
+# target to preprocess a source file
+src/benchmarks/memory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.i
+.PHONY : src/benchmarks/memory.cpp.i
+
+src/benchmarks/memory.s: src/benchmarks/memory.cpp.s
+.PHONY : src/benchmarks/memory.s
+
+# target to generate assembly for a file
+src/benchmarks/memory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.s
+.PHONY : src/benchmarks/memory.cpp.s
+
+src/benchmarks/prime.o: src/benchmarks/prime.cpp.o
+.PHONY : src/benchmarks/prime.o
+
+# target to build an object file
+src/benchmarks/prime.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.o
+.PHONY : src/benchmarks/prime.cpp.o
+
+src/benchmarks/prime.i: src/benchmarks/prime.cpp.i
+.PHONY : src/benchmarks/prime.i
+
+# target to preprocess a source file
+src/benchmarks/prime.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.i
+.PHONY : src/benchmarks/prime.cpp.i
+
+src/benchmarks/prime.s: src/benchmarks/prime.cpp.s
+.PHONY : src/benchmarks/prime.s
+
+# target to generate assembly for a file
+src/benchmarks/prime.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.s
+.PHONY : src/benchmarks/prime.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -153,6 +249,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/utils/csv_export.o: src/utils/csv_export.cpp.o
+.PHONY : src/utils/csv_export.o
+
+# target to build an object file
+src/utils/csv_export.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.o
+.PHONY : src/utils/csv_export.cpp.o
+
+src/utils/csv_export.i: src/utils/csv_export.cpp.i
+.PHONY : src/utils/csv_export.i
+
+# target to preprocess a source file
+src/utils/csv_export.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.i
+.PHONY : src/utils/csv_export.cpp.i
+
+src/utils/csv_export.s: src/utils/csv_export.cpp.s
+.PHONY : src/utils/csv_export.s
+
+# target to generate assembly for a file
+src/utils/csv_export.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.s
+.PHONY : src/utils/csv_export.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +282,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cpu_benchmark"
+	@echo "... src/benchmarks/floating_point.o"
+	@echo "... src/benchmarks/floating_point.i"
+	@echo "... src/benchmarks/floating_point.s"
+	@echo "... src/benchmarks/integer.o"
+	@echo "... src/benchmarks/integer.i"
+	@echo "... src/benchmarks/integer.s"
+	@echo "... src/benchmarks/memory.o"
+	@echo "... src/benchmarks/memory.i"
+	@echo "... src/benchmarks/memory.s"
+	@echo "... src/benchmarks/prime.o"
+	@echo "... src/benchmarks/prime.i"
+	@echo "... src/benchmarks/prime.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/utils/csv_export.o"
+	@echo "... src/utils/csv_export.i"
+	@echo "... src/utils/csv_export.s"
 .PHONY : help
 
 

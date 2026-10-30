@@ -131,7 +131,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=CPUPerformanceBenchmark
+CMAKE_PROJECT_NAME:STATIC=cpu_benchmark_engine
 
 //Value Computed by CMake
 CMAKE_PROJECT_SPDX_LICENSE:STATIC=
@@ -202,13 +202,13 @@ CMAKE_TAPI:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/tapi
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-CPUPerformanceBenchmark_BINARY_DIR:STATIC=/Users/DarshParikh/cpu-benchmark-engine/build
+cpu_benchmark_engine_BINARY_DIR:STATIC=/Users/DarshParikh/cpu-benchmark-engine/build
 
 //Value Computed by CMake
-CPUPerformanceBenchmark_IS_TOP_LEVEL:STATIC=ON
+cpu_benchmark_engine_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-CPUPerformanceBenchmark_SOURCE_DIR:STATIC=/Users/DarshParikh/cpu-benchmark-engine
+cpu_benchmark_engine_SOURCE_DIR:STATIC=/Users/DarshParikh/cpu-benchmark-engine
 
 
 ########################

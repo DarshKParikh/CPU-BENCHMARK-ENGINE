@@ -86,17 +86,97 @@ CMakeFiles/cpu_benchmark.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpu_benchmark.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/DarshParikh/cpu-benchmark-engine/src/main.cpp -o CMakeFiles/cpu_benchmark.dir/src/main.cpp.s
 
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.o: CMakeFiles/cpu_benchmark.dir/flags.make
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.o: /Users/DarshParikh/cpu-benchmark-engine/src/benchmarks/integer.cpp
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.o: CMakeFiles/cpu_benchmark.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/DarshParikh/cpu-benchmark-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.o -MF CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.o.d -o CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.o -c /Users/DarshParikh/cpu-benchmark-engine/src/benchmarks/integer.cpp
+
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/DarshParikh/cpu-benchmark-engine/src/benchmarks/integer.cpp > CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.i
+
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/DarshParikh/cpu-benchmark-engine/src/benchmarks/integer.cpp -o CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.s
+
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.o: CMakeFiles/cpu_benchmark.dir/flags.make
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.o: /Users/DarshParikh/cpu-benchmark-engine/src/benchmarks/floating_point.cpp
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.o: CMakeFiles/cpu_benchmark.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/DarshParikh/cpu-benchmark-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.o -MF CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.o.d -o CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.o -c /Users/DarshParikh/cpu-benchmark-engine/src/benchmarks/floating_point.cpp
+
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/DarshParikh/cpu-benchmark-engine/src/benchmarks/floating_point.cpp > CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.i
+
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/DarshParikh/cpu-benchmark-engine/src/benchmarks/floating_point.cpp -o CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.s
+
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.o: CMakeFiles/cpu_benchmark.dir/flags.make
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.o: /Users/DarshParikh/cpu-benchmark-engine/src/benchmarks/memory.cpp
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.o: CMakeFiles/cpu_benchmark.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/DarshParikh/cpu-benchmark-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.o -MF CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.o.d -o CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.o -c /Users/DarshParikh/cpu-benchmark-engine/src/benchmarks/memory.cpp
+
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/DarshParikh/cpu-benchmark-engine/src/benchmarks/memory.cpp > CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.i
+
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/DarshParikh/cpu-benchmark-engine/src/benchmarks/memory.cpp -o CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.s
+
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.o: CMakeFiles/cpu_benchmark.dir/flags.make
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.o: /Users/DarshParikh/cpu-benchmark-engine/src/benchmarks/prime.cpp
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.o: CMakeFiles/cpu_benchmark.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/DarshParikh/cpu-benchmark-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.o -MF CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.o.d -o CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.o -c /Users/DarshParikh/cpu-benchmark-engine/src/benchmarks/prime.cpp
+
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/DarshParikh/cpu-benchmark-engine/src/benchmarks/prime.cpp > CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.i
+
+CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/DarshParikh/cpu-benchmark-engine/src/benchmarks/prime.cpp -o CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.s
+
+CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.o: CMakeFiles/cpu_benchmark.dir/flags.make
+CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.o: /Users/DarshParikh/cpu-benchmark-engine/src/utils/csv_export.cpp
+CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.o: CMakeFiles/cpu_benchmark.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/DarshParikh/cpu-benchmark-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.o -MF CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.o.d -o CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.o -c /Users/DarshParikh/cpu-benchmark-engine/src/utils/csv_export.cpp
+
+CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/DarshParikh/cpu-benchmark-engine/src/utils/csv_export.cpp > CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.i
+
+CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/DarshParikh/cpu-benchmark-engine/src/utils/csv_export.cpp -o CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.s
+
 # Object files for target cpu_benchmark
 cpu_benchmark_OBJECTS = \
-"CMakeFiles/cpu_benchmark.dir/src/main.cpp.o"
+"CMakeFiles/cpu_benchmark.dir/src/main.cpp.o" \
+"CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.o" \
+"CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.o" \
+"CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.o" \
+"CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.o" \
+"CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.o"
 
 # External object files for target cpu_benchmark
 cpu_benchmark_EXTERNAL_OBJECTS =
 
 cpu_benchmark: CMakeFiles/cpu_benchmark.dir/src/main.cpp.o
+cpu_benchmark: CMakeFiles/cpu_benchmark.dir/src/benchmarks/integer.cpp.o
+cpu_benchmark: CMakeFiles/cpu_benchmark.dir/src/benchmarks/floating_point.cpp.o
+cpu_benchmark: CMakeFiles/cpu_benchmark.dir/src/benchmarks/memory.cpp.o
+cpu_benchmark: CMakeFiles/cpu_benchmark.dir/src/benchmarks/prime.cpp.o
+cpu_benchmark: CMakeFiles/cpu_benchmark.dir/src/utils/csv_export.cpp.o
 cpu_benchmark: CMakeFiles/cpu_benchmark.dir/build.make
 cpu_benchmark: CMakeFiles/cpu_benchmark.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/DarshParikh/cpu-benchmark-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpu_benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/DarshParikh/cpu-benchmark-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable cpu_benchmark"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpu_benchmark.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

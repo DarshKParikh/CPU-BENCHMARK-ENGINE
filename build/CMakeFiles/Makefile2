@@ -85,12 +85,12 @@ clean: CMakeFiles/cpu_benchmark.dir/clean
 CMakeFiles/cpu_benchmark.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/DarshParikh/cpu-benchmark-engine/build/CMakeFiles --progress-num=1,2 "Built target cpu_benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/DarshParikh/cpu-benchmark-engine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target cpu_benchmark"
 .PHONY : CMakeFiles/cpu_benchmark.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cpu_benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/DarshParikh/cpu-benchmark-engine/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/DarshParikh/cpu-benchmark-engine/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cpu_benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/DarshParikh/cpu-benchmark-engine/build/CMakeFiles 0
 .PHONY : CMakeFiles/cpu_benchmark.dir/rule
@@ -102,7 +102,7 @@ cpu_benchmark: CMakeFiles/cpu_benchmark.dir/rule
 # codegen rule for target.
 CMakeFiles/cpu_benchmark.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpu_benchmark.dir/build.make CMakeFiles/cpu_benchmark.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/DarshParikh/cpu-benchmark-engine/build/CMakeFiles --progress-num=1,2 "Finished codegen for target cpu_benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/DarshParikh/cpu-benchmark-engine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target cpu_benchmark"
 .PHONY : CMakeFiles/cpu_benchmark.dir/codegen
 
 # clean rule for target.
